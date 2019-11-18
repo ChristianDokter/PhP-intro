@@ -1,0 +1,30 @@
+#header, #footer{
+    border: 5px solid #376300;
+    padding: 20px;
+    background-color:#cc0a34;
+    color: #376300;
+    text-align: center;
+    font-family: 'Neucha', cursive;
+}
+
+#navigation {
+    background-color: #F8F9FA;
+    margin-top: 120px;
+    background-color: rgb(236, 236, 236);
+    font-family: 'Kalam', cursive;
+}
+
+#content{
+    min-height: 500px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(236, 236, 236);
+}
+
+.bg-light {
+    background-color: rgb(236, 236, 236)!important;
+}
+
+div.col-6 h1 {
+    font-family: 'Kalam', cursive;
+}

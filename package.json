@@ -1,0 +1,20 @@
+{
+  "name": "sinterklaaslijstje",
+  "version": "1.0.0",
+  "description": "Dit is een oefening voor het leren van CRUD met PHP door middel van een sinterklaas lijstje",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PHP",
+    "CRUD",
+    "Bootstrap",
+    "Typescript"
+  ],
+  "author": "Christian Dokter",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bootstrap": "^4.3.1"
+  }
+}
