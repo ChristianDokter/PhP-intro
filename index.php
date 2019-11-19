@@ -31,7 +31,7 @@
       <div class="row">
         <div class="col-12" id="content">
           <?php
-            include("./home.php");
+            include("./verlanglijstje.php");
           ?>
         </div>
       </div>
