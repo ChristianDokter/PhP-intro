@@ -37,6 +37,10 @@
           else {
             include("./Home.php");
           }
+
+          if ( isset($_GET["gebruikers"])){
+            include("./" . $_GET["gebruikers"] . ".php");
+          }
           ?>
         </div>
       </div>
