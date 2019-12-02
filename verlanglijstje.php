@@ -34,6 +34,23 @@
     $piek = array("./img/piek", 
                         "Piek", 
                         "Een piek zet je op de top van de kerstboom");
+
+    $WarmeChocoladeMelk = array("./img/WarmeChocoladeMelk", 
+                        "Warme Chocolade Melk", 
+                        "Warme Chocolade is altijd heerlijk tijdens kerst en kou");
+
+    //Dit is een associatief array
+    $Kerstbal = array("image_path" => "./img/Kerstbal.jpg",
+                        "title"    => "Kerstbal",
+                        "text"     => "Kerstballen worden opgehangen in de kerstboom");
+
+    $AdventsKalender = array("image_path" => "./img/adventskalender.jpg",
+                        "title"    => "AdventsKalender",
+                        "text"     => "Een adventskalender bevat 31 chocolaatjes");
+
+    $Kerststol = array("image_path" => "./img/Kerststol.jpg",
+                        "title"    => "Kerststol",
+                        "text"     => "Kerststollen worden vaak gegeten tijdens kerst");
     ?>
 
 <div class="row">
@@ -93,6 +110,49 @@
                 <p class="card-text"><?php echo $piek[2];?></p>
                 <a href="#" class="btn btn-primary">Druk hier!</a>
             </div>
+        </div>  
+    </div>
+<div class="col-4">
+<div class="card">
+            <img src="<?php echo $WarmeChocoladeMelk[0];?>" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><?php echo $WarmeChocoladeMelk[1];?></h5>
+                <p class="card-text"><?php echo $WarmeChocoladeMelk[2];?></p>
+                <a href="#" class="btn btn-primary">Druk hier!</a>
+            </div>
         </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-4">
+        <div class="card">
+            <img src="<?php echo $Kerstbal["image_path"];?>" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><?php echo $Kerstbal["title"];?></h5>
+                <p class="card-text"><?php echo $Kerstbal["text"];?></p>
+                <a href="#" class="btn btn-primary">Druk hier!</a>
+            </div>
+         </div>
+    </div>
+    <div class="col-4">
+        <div class="card">
+            <img src="<?php echo $AdventsKalender["image_path"];?>" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><?php echo $AdventsKalender["title"];?></h5>
+                <p class="card-text"><?php echo $AdventsKalender["text"];?></p>
+                <a href="#" class="btn btn-primary">Druk hier!</a>
+            </div>
+         </div>
+    </div>
+    <div class="col-4">
+    <div class="card">
+            <img src="<?php echo $Kerststol["image_path"];?>" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><?php echo $Kerststol["title"];?></h5>
+                <p class="card-text"><?php echo $Kerststol["text"];?></p>
+                <a href="#" class="btn btn-primary">Druk hier!</a>
+            </div>
+         </div>
     </div>
 </div>

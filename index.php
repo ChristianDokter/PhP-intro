@@ -31,7 +31,12 @@
       <div class="row">
         <div class="col-12" id="content">
           <?php
-            include("./verlanglijstje.php");
+          if ( isset($_GET["content"])){
+            include("./" . $_GET["content"] . ".php");
+          }
+          else {
+            include("./Home.php");
+          }
           ?>
         </div>
       </div>
