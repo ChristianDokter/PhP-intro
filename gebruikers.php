@@ -10,7 +10,7 @@
     </div>
     <div class="row">
         <div class="class col-6">
-            <form action="./create.php">
+            <form action="./index.php?content=create" method="post">
                 <div class="form-group">
                     <label for="firstname">Voornaam</label>
                     <input type="text" class="form-control" id="firstname" aria-describedby="firstnameHelp" name="firstname">
